@@ -1,0 +1,86 @@
+body {
+  background-color: #fcf9de;
+  color: #fc5e49;
+}
+
+h1 {
+  font-family: 'National Park', sans-serif;
+  font-size: 120px;
+  line-height: 1.2em;
+  font-weight: 800;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-family: 'National Park', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1.4em;
+}
+
+p {
+  font-family: 'National Park', serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.4em;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 100px;
+  box-sizing: border-box;
+}
+
+.iframeContainer {
+  width: 60%;
+  padding-top: calc(60% * (400 + 42) / 600);
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+iframe {
+  display: block;
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+}
+
+.postcard {
+  display: flex;
+  justify-content: flex-start;
+  margin: 100px 0;
+}
+
+.postcard:nth-child(2n) {
+  justify-content: flex-end;
+}
+
+a:link, a:active, a:visited {
+  color: #ff42b0;
+}
+a:hover {
+  color: #bf6ef5;
+}
+
+@media all and (max-width: 800px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 30px;
+  }
+  section {
+    padding: 30px 50px;
+  }
+  .iframeContainer {
+    width: 80%;
+  }
+}

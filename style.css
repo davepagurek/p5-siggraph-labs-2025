@@ -18,7 +18,7 @@ h2 {
   line-height: 1.4em;
 }
 
-p {
+p, li {
   font-family: 'National Park', serif;
   font-weight: 300;
   font-size: 40px;
@@ -82,5 +82,6 @@ a:hover {
   }
   .iframeContainer {
     width: 80%;
+    padding-top: calc(80% * (400 + 42) / 600);
   }
 }

@@ -15,6 +15,7 @@ Do you want to add a postcard? Please do!
 
 1. Make a 600x400 sketch on the <a href="https://editor.p5js.org">p5.js Web Editor</a>.
   - Feel free to make it from scratch, following along <a href="https://openprocessing.org/sketch/2674947">this step-by-step tutorial</a>
+  - Alternatively, fork <a href="https://editor.p5js.org/davepagurek/sketches/n3QKOu_vL">this boilerplate sketch</a> and branch off of it
   - Alternatively, fork <a href="https://editor.p5js.org/davepagurek/sketches/yzSyIAqr0">this completed example sketch</a>
 2. <a href="https://github.com/davepagurek/p5-siggraph-labs-2025/fork">Fork this repo</a>
 3. Add a line to `data.js`
